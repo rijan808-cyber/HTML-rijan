@@ -1,7 +1,7 @@
 body{
     background-color: cadetblue;
     margin-left: 40%;
-    
+
 }
 div{
     color: antiquewhite;
@@ -10,6 +10,7 @@ img{
     width: 200px;
     height: 200px;
     border-radius: 100px;
+    object-fit: cover;
 }
 a{
     color: aqua;
