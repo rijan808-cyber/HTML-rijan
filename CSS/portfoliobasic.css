@@ -1,0 +1,23 @@
+body{
+    background-color: cadetblue;
+    margin-left: 40%;
+    
+}
+div{
+    color: antiquewhite;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+h2{
+    color: floralwhite;
+}

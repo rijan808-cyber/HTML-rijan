@@ -1,0 +1,17 @@
+div{
+    background-color: teal;
+    color: antiquewhite;
+}
+span{
+    color: tomato;
+}
+*{
+    background-color: black;
+    color: aquamarine;
+}
+.title{
+    color: rgb(222, 237, 12);
+}
+#title1{
+    color: aliceblue;
+}
