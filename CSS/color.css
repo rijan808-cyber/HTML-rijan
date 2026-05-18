@@ -1,0 +1,40 @@
+#rgb{
+    background-color: rgb(48, 98, 102);
+}
+
+#green{
+    background-color: rgb(0, 255, 0);
+}
+
+#blue{
+    background-color: rgb(0, 0, 255);
+}
+
+/* RGBA */
+/* a - alpha. It values varies in the range of 0-1. 
+ 0 - Lowest value (Transparent)
+ 1 - Highest value (color is completely visible)*/
+#alpha{
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+/* HSL - Hue(0-360), Saturation(0%-100%) Lightness(0%-100%) 
+    Hue represents color, 0/360 - red, 120-greeen, 240-blue 
+    Saturation - 0% - grey color, 100% - Full color
+    Light- 0%- black, 50%-balanced, 100%-white
+    hsla() - here a refers alpha same like rgba*/
+#hsl{
+    background-color: hsl(360, 100%, 50%);
+}
+#hslgreen{
+    background-color: hsl(120, 100%, 50%);
+}
+#hslblue{
+    background-color: hsl(240, 100%, 50%);
+}
+#saturation{
+    background-color: hsl(0, 100%, 50%);
+}
+#light{
+    background-color: hsl(0, 100%, 80%);
+}
