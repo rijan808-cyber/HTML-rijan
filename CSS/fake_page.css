@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f0f4ff;
+}
+
+/* Top bar */
+.navbar {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Main layout */
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Profile box */
+.profile {
+    width: 25%;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+    height: fit-content;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Posts */
+.posts {
+    width: 70%;
+    margin-left: 20px;
+}
+
+.post {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #1e3a8a;
+}
+
+.small {
+    font-size: 12px;
+    color: gray;
+}
