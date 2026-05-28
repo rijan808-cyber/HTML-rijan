@@ -1,0 +1,18 @@
+table{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    border-bottom: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th{
+    background-color: midnightblue;
+    color: springgreen;
+    font-weight: 700;
+}
