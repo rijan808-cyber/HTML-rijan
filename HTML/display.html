@@ -13,13 +13,26 @@
         }
         .inline{
             display: inline;
-            width: 500px;
-            height: 500px;
+
         }
         .inline-block{
             display: inline-block;
+            width: 150px;
+            height: 150px;
+        }
+        .block{
+            display: block;
             width: 500px;
-            height: 500px;
+            height: 100px;
+        }
+        .none{
+            display: none;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -54,11 +67,44 @@
         <span>Text 1</span>
         <span>Text 2</span>
         <span>Text 3</span>
+    </p>
     <hr>
     <h3>Block</h3>
+        <p class="block">
+        <span style="display: block;">Text 1</span>
+        <span>Text 2</span>
+        <span>Text 3</span>
     <hr>
     <h3>None</h3>
+    <p class="none">
+        <span>Text 1</span>
+        <span>Text 2</span>
+        <span>Text 3</span>
+    </p>
     <hr>
 
+    <!-- 
+    display:
+    inline-block: Converts block-level element to inline and has height and width property 
+    (unlike inline)
+
+    none: hides the element.
+
+    inline: width and height won't work
+    -->
+
+    <h3>Border Radius</h3>
+
+    <div class="box">
+    </div>
+    <br>
+    <div class="box" style="border-radius: 50px;">
+    </div>
+
+    <!-- 
+    Create a container class block with green background. The container block has 4 inline-block boxes with 100px height and width. Change the style of each box. Apply Red color as a background color with changing
+    opacity box1: 0, box2: 0.25, box3: 0.5, box4: 0.5.
+    Applyt border-radius for each boxes, box1: 0%, box2: 15%, box3: 25%, box4:50%
+    -->
 </body>
 </html>
