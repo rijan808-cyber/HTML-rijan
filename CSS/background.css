@@ -1,0 +1,46 @@
+body{
+    background-image: url('../IMAGE/Way\ of\ water.jpg');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+/* 
+Background-size: for the size of an background image values can be unit or 
+                 (auto/cover/container)
+
+Background-repeat: defines how many times image will be repeated. Possible values (repeat-x[repeats image in x-axis]), (repeat-x[repeats image in x-axis]), (no-repeat)
+
+Background-attachment - defines whethera image is scrollable or fixed.
+
+Background-position - to fix the image in certain position of the screen
+*/
+.container{
+    height: 1000px;
+    width: 300px;
+    background-color: darkslateblue;
+}
+
+.bg-container{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+}
+
+#auto{
+    background-image: url('../IMAGE/Dune\ part\ 2.webp');
+    background-size: auto;
+}
+
+#cover{
+    background-image: url('../IMAGE/1000001055[1].jpg');
+    background-size: cover;
+}
+
+#contain{
+    background-image: url('../IMAGE/Way\ of\ water.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
