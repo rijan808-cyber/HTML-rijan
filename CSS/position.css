@@ -1,0 +1,45 @@
+/* Position CSS */
+.container{
+    border: 1px solid black;
+    width: 500px;
+}
+
+#static{
+    position: static;
+    top: 400px;
+}
+
+#relative{
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+.parent{
+    width: 60vw;
+    height: 40vh;
+    border: 1px solid black;
+}
+
+#absolute{
+    position: absolute;
+    top: 10px;
+}
+
+#fixed{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#sticky{
+    position: sticky;
+    top: 300px;
+}
+/* 
+Static- not moveable
+relative- relative to original position
+absolute- take reference from ancestor
+fixed- fixed in position
+sticky- moveable until it reach position offset(top, left, bottom, right)
+*/
