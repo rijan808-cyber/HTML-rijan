@@ -32,3 +32,36 @@ span{
     font-size: 20px;
     font-weight: 700;
 }
+
+/* Content and Image */
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Image */
+.image{
+    width: 380px;
+    height: 380px;
+    border: 3px solid navy;
+    background-image: url("../IMAGE/rijan.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    position: fixed;
+    left: 5vw;
+    top: 10vh;
+}
+
+h3{
+    color: navy;
+}
+
+/* Content */
+.content{
+    width: 60%;
+    /* content position */
+    position: relative;
+    left: 20vw;
+    top: 20vh;
+}
