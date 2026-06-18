@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes myAnimation{
+            from{
+                background-color: orange;
+            }
+
+            to{
+                background-color: aquamarine;
+            }
+        }
+
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            /* Syntax: animation: animation-name duration
+            transition-function delay iteration */
+            animation: myAnimation 2s ease-in 1s infinite;
+        }
+
+        /* Animation Multiple Steps */
+        @keyframes newAnimation{
+            0%{
+                background-color: navy;
+                left: 10px;
+                top: 10px;
+            }
+
+            25%{
+                background-color: pink;
+                left: 200px;
+                top: 10px;
+            }
+
+            50%{
+                background-color: violet;
+                left: 200px;
+                top: 200px;
+            }
+
+            75%{
+                background-color: tomato;
+                left: 200px;
+                bottom: 200px;
+            }
+
+            100%{
+                background-color: red;
+                top: 200px;
+                left: 10px
+            }
+        }
+
+        .box1{
+            width: 100px;
+            height: 100px;
+            background-color: navy;
+            animation: newAnimation 4s ease-in-out 0s infinite;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation Style</h1>
+    <h3>Animation with keyframes - Start and End</h3>
+    <div class="box">
+
+    </div>
+    <h3>Animation with keyframes - Multiple Steps</h3>
+    <div class="box1">
+
+    </div>
+</body>
+</html>
